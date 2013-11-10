@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"api_",
+				"SagepointPortal.api_version"
+			],
+			[
+				"api",
+				"SagepointPortal.api_base"
+			],
+			[
+				"Sagepo",
+				"SagepointPortal"
+			],
+			[
 				"in",
 				"invalid_token"
 			],
@@ -44,18 +56,10 @@
 	"buffers":
 	[
 		{
-			"file": "bower.json",
-			"settings":
-			{
-				"buffer_size": 321,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 2865,
+				"buffer_size": 1565,
 				"line_ending": "Unix"
 			}
 		},
@@ -63,15 +67,7 @@
 			"file": "app/scripts/app.js",
 			"settings":
 			{
-				"buffer_size": 668,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/delorenj/code/sagepoint-portal.bk/app/index.html",
-			"settings":
-			{
-				"buffer_size": 1631,
+				"buffer_size": 814,
 				"line_ending": "Unix"
 			}
 		},
@@ -79,7 +75,31 @@
 			"file": "app/scripts/router.js",
 			"settings":
 			{
-				"buffer_size": 169,
+				"buffer_size": 198,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/routes/password_route.js",
+			"settings":
+			{
+				"buffer_size": 123,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/PasswordController.js",
+			"settings":
+			{
+				"buffer_size": 991,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/password.hbs",
+			"settings":
+			{
+				"buffer_size": 480,
 				"line_ending": "Unix"
 			}
 		},
@@ -87,7 +107,7 @@
 			"file": "app/scripts/store.js",
 			"settings":
 			{
-				"buffer_size": 99,
+				"buffer_size": 259,
 				"line_ending": "Unix"
 			}
 		},
@@ -95,7 +115,7 @@
 			"file": "app/scripts/routes/application_route.js",
 			"settings":
 			{
-				"buffer_size": 258,
+				"buffer_size": 61,
 				"line_ending": "Unix"
 			}
 		},
@@ -103,23 +123,15 @@
 			"file": "Gruntfile.js",
 			"settings":
 			{
-				"buffer_size": 11219,
+				"buffer_size": 10534,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/templates/index.hbr",
+			"file": "app/styles/style.scss",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/scripts/templates.js",
-			"settings":
-			{
-				"buffer_size": 275,
+				"buffer_size": 1017,
 				"line_ending": "Unix"
 			}
 		}
@@ -127,9 +139,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 159.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"wrap",
 				"Word Wrap: Toggle"
@@ -137,10 +153,6 @@
 			[
 				"setsass",
 				"Set Syntax: Sass"
-			],
-			[
-				"rein",
-				"Indentation: Reindent Lines"
 			],
 			[
 				"set",
@@ -239,6 +251,12 @@
 	},
 	"file_history":
 	[
+		"/home/delorenj/code/sagepoint-portal/.sass-cache/c13a346e94f2eb5ac18a97f443b513c120325bad/style.scssc",
+		"/home/delorenj/code/sagepoint-portal/app/scripts/views/big_input.js",
+		"/home/delorenj/code/sagepoint-portal/bower.json",
+		"/home/delorenj/code/sagepoint-portal/app/scripts/templates.js",
+		"/home/delorenj/code/sagepoint-portal/app/templates/index.hbr",
+		"/home/delorenj/code/sagepoint-portal.bk/app/index.html",
 		"/home/delorenj/code/sagepoint-portal/dist/styles/b9f34419.main.css",
 		"/home/delorenj/code/sagepoint-portal/app/index.html",
 		"/home/delorenj/code/sagepoint-portal/dist/index.html",
@@ -249,7 +267,6 @@
 		"/home/delorenj/code/sagepoint-portal/app/templates/password-reset.hbs",
 		"/home/delorenj/code/sagepoint-portal/app/styles/style.scss",
 		"/home/delorenj/code/sagepoint-portal/app/styles/variables.scss",
-		"/home/delorenj/code/sagepoint-portal/bower.json",
 		"/home/delorenj/code/sagepoint-portal/index.html",
 		"/etc/apache2/sites-available/sagepoint-api.conf",
 		"/etc/apache2/sites-available/sagepoint-legacy.conf",
@@ -521,29 +538,31 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "bower.json",
+					"file": "app/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 321,
+						"buffer_size": 1565,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								51,
-								51
+								982,
+								982
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -553,26 +572,26 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/index.html",
+					"file": "app/scripts/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2865,
+						"buffer_size": 814,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1810,
-								1810
+								248,
+								248
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -582,24 +601,25 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/scripts/app.js",
+					"file": "app/scripts/router.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 668,
+						"buffer_size": 198,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								143,
-								143
+								145,
+								145
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -609,26 +629,25 @@
 				},
 				{
 					"buffer": 3,
-					"file": "/home/delorenj/code/sagepoint-portal.bk/app/index.html",
+					"file": "app/scripts/routes/password_route.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1631,
+						"buffer_size": 123,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1334,
-								1334
+								117,
+								117
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -638,51 +657,53 @@
 				},
 				{
 					"buffer": 4,
-					"file": "app/scripts/router.js",
+					"file": "app/scripts/controllers/PasswordController.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 169,
+						"buffer_size": 991,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								169,
-								169
+								620,
+								620
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 51.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "app/scripts/store.js",
+					"file": "app/templates/password.hbs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 99,
+						"buffer_size": 480,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								99,
-								99
+								215,
+								215
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -692,19 +713,47 @@
 				},
 				{
 					"buffer": 6,
-					"file": "app/scripts/routes/application_route.js",
+					"file": "app/scripts/store.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 258,
+						"buffer_size": 259,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								258,
-								258
+								259,
+								259
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/scripts/routes/application_route.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 61,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -718,20 +767,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "Gruntfile.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11219,
+						"buffer_size": 10534,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9441,
-								9441
+								0,
+								0
 							]
 						],
 						"settings":
@@ -747,52 +796,26 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "app/templates/index.hbr",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Handlebars/Handlebars.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 9,
-					"file": "app/scripts/templates.js",
+					"file": "app/styles/style.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 275,
+						"buffer_size": 1017,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								275,
-								275
+								526,
+								526
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -846,8 +869,28 @@
 		"selected_items":
 		[
 			[
+				"passcon",
+				"app/scripts/controllers/PasswordController.js"
+			],
+			[
+				"stor",
+				"app/scripts/store.js"
+			],
+			[
+				"stscss",
+				"app/styles/style.scss"
+			],
+			[
+				"styl",
+				".sass-cache/c13a346e94f2eb5ac18a97f443b513c120325bad/style.scssc"
+			],
+			[
 				"bower",
-				"sagepoint-portal/bower.json"
+				"bower.json"
+			],
+			[
+				"inde",
+				"app/index.html"
 			],
 			[
 				"grun",
@@ -1190,11 +1233,19 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"~/code/sagepoint-api/ubuntu.sublime-project"
+			],
+			[
+				"api",
+				"~/code/sagepoint-api/ubuntu.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{

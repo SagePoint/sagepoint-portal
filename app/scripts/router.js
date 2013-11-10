@@ -1,3 +1,7 @@
 SagepointPortal.Router.map(function () {
-  this.route("password-reset", {"path": "/users/password/edit"});
+	this.resource('users', function() {
+		this.resource('password', {queryParams: ['reset_password_token']}, function() {
+			this.route('edit');
+		});
+	});
 });

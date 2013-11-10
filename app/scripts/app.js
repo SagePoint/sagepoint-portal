@@ -1,6 +1,11 @@
+Ember.FEATURES["query-params"] = true;
+
 var SagepointPortal = window.SagepointPortal = Ember.Application.create({
 	  LOG_TRANSITIONS: true
 });
+
+SagepointPortal.api_base = "//api.local.sagepointsoftware.com";
+SagepointPortal.api_version = "api/v1";
 
 /* Order and include as you please. */
 require('scripts/controllers/*');
