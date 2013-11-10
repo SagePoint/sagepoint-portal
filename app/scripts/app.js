@@ -6,6 +6,7 @@ var SagepointPortal = window.SagepointPortal = Ember.Application.create({
 
 SagepointPortal.api_base = "//api.local.sagepointsoftware.com";
 SagepointPortal.api_version = "api/v1";
+SagepointPortal.legacy_sign_in = "//local.sagepointsoftware.com/account/login";
 
 /* Order and include as you please. */
 require('scripts/controllers/*');

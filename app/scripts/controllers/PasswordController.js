@@ -20,10 +20,21 @@ SagepointPortal.PasswordController = Ember.ObjectController.extend({
 				url: SagepointPortal.api_base + '/' + SagepointPortal.api_version + '/users/password',
 				data: {
 					password: pass,
+					password_confirmation: match,
 					reset_password_token: token
 				},
+				crossDomain: true,
 				success: function(data) {
-					$.notifyBar({html: "Password Changed!", cssClass: "success"});
+					if(data.success === true) {
+						$.notifyBar({html: "Password Changed!", cssClass: "success"});
+						setTimeout(function() {
+							location.href = SagepointPortal.legacy_sign_in;
+						}, 500);
+
+					} else {
+						$.notifyBar({html: "Oops, there was an error!", cssClass: "error"});
+					}
+
 				},
 				error: function() {
 					$.notifyBar({html: "Oops, there was an error", cssClass: "error"});

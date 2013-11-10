@@ -67,7 +67,7 @@
 			"file": "app/scripts/app.js",
 			"settings":
 			{
-				"buffer_size": 814,
+				"buffer_size": 894,
 				"line_ending": "Unix"
 			}
 		},
@@ -91,7 +91,7 @@
 			"file": "app/scripts/controllers/PasswordController.js",
 			"settings":
 			{
-				"buffer_size": 991,
+				"buffer_size": 1281,
 				"line_ending": "Unix"
 			}
 		},
@@ -576,15 +576,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 814,
+						"buffer_size": 894,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								248,
-								248
+								327,
+								327
 							]
 						],
 						"settings":
@@ -661,15 +661,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 991,
+						"buffer_size": 1281,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								620,
-								620
+								1017,
+								1017
 							]
 						],
 						"settings":
@@ -1238,7 +1238,7 @@
 		[
 			[
 				"",
-				"~/code/sagepoint-api/ubuntu.sublime-project"
+				"~/code/sagepoint-api.sublime-workspace"
 			],
 			[
 				"api",
