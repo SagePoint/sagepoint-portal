@@ -1,0 +1,28 @@
+//Colors
+$slate: 		#3A4147;
+$slate-light: 	#4E545A;
+$slate-dark: 	#242C33;
+$offwhite:		#F5F6F7;
+$sage-light:	#79C040;
+$sage:			#67AC53;
+$gray-light:	#E0E3E6;
+
+@mixin set-font($family, $weight: 400) {
+    font-family: $family, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: $weight;
+}
+
+@mixin set-placeholder-color($color) {
+	::-webkit-input-placeholder { /* WebKit browsers */
+	    color: $color;
+	}
+	:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	    color: $color;
+	}
+	::-moz-placeholder { /* Mozilla Firefox 19+ */
+	    color: $color;
+	}
+	:-ms-input-placeholder { /* Internet Explorer 10+ */
+	    color: $color;
+	}
+}
