@@ -2,6 +2,7 @@
   "name": "sagepoint-portal",
   "version": "0.0.0",
   "dependencies": {
+    "handlebars": "latest",
     "ember": "http://builds.emberjs.com/canary/ember.js",
     "ember-data-shim": "http://builds.emberjs.com/canary/ember-data.js",
     "notify-bar": "git@github.com:dknight/jQuery-Notify-bar.git",
