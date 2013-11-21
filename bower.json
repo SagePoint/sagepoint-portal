@@ -7,7 +7,8 @@
     "ember-data-shim": "http://builds.emberjs.com/canary/ember-data.js",
     "notify-bar": "git@github.com:dknight/jQuery-Notify-bar.git",
     "bootstrap3": "https://github.com/twbs/bootstrap/archive/v3.0.2.zip",
-    "theme-flatly": "http://netdna.bootstrapcdn.com/bootswatch/3.0.1/flatly/bootstrap.min.css"
+    "theme-flatly": "http://netdna.bootstrapcdn.com/bootswatch/3.0.1/flatly/bootstrap.min.css",
+    "jquery-cookie": "latest"
   },
   "devDependencies": {
     "ember-mocha-adapter": "0.1.2"

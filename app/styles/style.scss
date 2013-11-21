@@ -62,3 +62,15 @@ ember-text-field, ember-view {
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 }
+
+.jquery-notify-bar.warning .notify-bar-text-wrapper {
+  background: transparent url("../img/error.png") no-repeat center left;
+}
+
+.jquery-notify-bar.success .notify-bar-text-wrapper {
+  background: transparent url("../img/tick.png") no-repeat center left;
+}
+
+.jquery-notify-bar.error .notify-bar-text-wrapper {
+  background: transparent url("../img/cross.png") no-repeat center left;
+}

@@ -1,0 +1,10 @@
+<div class="container">
+    <form class="form-signin" method="POST" action="http://local.sagepointsoftware.com/account/login">
+        <h2 class="form-signin-heading">Login</h2>
+        {{input id="email" type="text" value=email placeholder="Email"}}
+        {{input type="password" value=password placeholder="Password"}}
+  		<input type="hidden" id="auth_token" value="" />
+        <button {{action 'login' }} class="btn btn-lg btn-primary btn-block" >Sign In</button>
+    </form>
+
+</div> <!-- /container -->
