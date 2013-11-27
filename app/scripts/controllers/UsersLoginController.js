@@ -13,7 +13,6 @@ SagepointPortal.UsersLoginController = Ember.ObjectController.extend({
 					password: pass,
 					email: email,
 				},
-				crossDomain: true,
 				success: function(data) {
 					if(data.success === true) {
 						$.cookie('auth_token', data.token);

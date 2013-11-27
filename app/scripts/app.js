@@ -1,5 +1,11 @@
 Ember.FEATURES["query-params"] = true;
 
+// Ember.$.ajaxSetup({
+//     beforeSend: function(xhr) {
+//         xhr.setRequestHeader('', 'some value');
+//     }
+// });
+
 var SagepointPortal = window.SagepointPortal = Ember.Application.create({
 	  LOG_TRANSITIONS: true
 });
