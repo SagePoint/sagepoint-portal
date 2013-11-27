@@ -4,15 +4,20 @@ var SagepointPortal = window.SagepointPortal = Ember.Application.create({
 	  LOG_TRANSITIONS: true
 });
 
-SagepointPortal.api_base = "//api.local.sagepointsoftware.com";
-SagepointPortal.api_version = "api/v1";
-SagepointPortal.legacy_sign_in = "//local.sagepointsoftware.com/account/login";
-SagepointPortal.legacy_dashboard = "//local.sagepointsoftware.com/ep/list";
+// SagepointPortal.api_base = "//api.local.sagepointsoftware.com";
+// SagepointPortal.api_version = "api/v1";
+// SagepointPortal.legacy_sign_in = "//local.sagepointsoftware.com/account/login";
+// SagepointPortal.legacy_dashboard = "//local.sagepointsoftware.com/ep/list";
 
 // SagepointPortal.api_base = "//api.alpha.sagepointsoftware.com";
 // SagepointPortal.api_version = "api/v1";
 // SagepointPortal.legacy_sign_in = "//alpha.sagepointsoftware.com/account/login";
 // SagepointPortal.legacy_dashboard = "//alpha.sagepointsoftware.com/ep/list";
+
+SagepointPortal.api_base = "//api.stage.sagepointsoftware.com";
+SagepointPortal.api_version = "api/v1";
+SagepointPortal.legacy_sign_in = "//stage.sagepointsoftware.com/account/login";
+SagepointPortal.legacy_dashboard = "//stage.sagepointsoftware.com/ep/list";
 
 /* Order and include as you please. */
 require('scripts/controllers/*');
