@@ -5,7 +5,8 @@ $slate-dark: 	#242C33;
 $offwhite:		#F5F6F7;
 $sage-light:	#79C040;
 $sage:			#67AC53;
-$gray-light:	#E0E3E6;
+$gray:			#BEC3C6;
+$gray-light:	#D6DBDF;
 
 @mixin set-font($family, $weight: 400) {
     font-family: $family, "Helvetica Neue", Helvetica, Arial, sans-serif;

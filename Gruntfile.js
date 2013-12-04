@@ -29,7 +29,7 @@ module.exports = function (grunt) {
         watch: {
             emberTemplates: {
                 files: '<%= yeoman.app %>/templates/**/*.{hbs}',
-                tasks: ['hbs']
+                tasks: ['emberTemplates', 'livereload']
             },
             compass: {
                 files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],

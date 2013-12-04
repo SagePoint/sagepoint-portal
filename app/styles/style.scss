@@ -1,6 +1,7 @@
 @import "variables";
 
-/* Put your CSS here */
+//Common Stuffs
+
 html, body {
 	margin: 30px 0;
 }
@@ -8,60 +9,51 @@ html, body {
 body {
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background-color: #eee;
+	background-color: $gray-light;
 }
 
 ember-text-field, ember-view {
 
 }
 
-.navbar-brand {
-	@include set-font("adelle", 800);
+.btn-sage {
+	background-color: $sage;
+	border: 1px solid $sage;
+	text-transform: uppercase;
+	&:hover {
+		background-color: $sage-light;
+		border:1px solid $sage-light;
+	}
+}
+.adelle {
+	font-family: "adelle";
+	font-weight: 400;
+	&.bold {
+		font-weight: 700;
+	}
+}
+.proxima {
+	font-family: "proxima-nova";
+	font-weight: 400;
+	&.bold {
+		font-weight: 700;
+	}
+}
+// Navbar stuffs
+
+.navbar {
+	background-color: $gray-light;
+	border-bottom: 1px solid $gray;
+	.navbar-brand {
+		@include set-font("adelle", 800);
+		color: $slate;
+
+	}
 }
 
-.form-signin {
-	max-width: 330px;
-	padding: 15px;
-	margin: 0 auto;
-}
 
-.form-signin .form-signin-heading,
-.form-signin .checkbox {
-	margin-bottom: 10px;
-}
 
-.form-signin .checkbox {
-	font-weight: normal;
-}
-
-.form-signin .form-control,
-.form-signin .ember-text-field {
-	width: 300px;
-	position: relative;
-	font-size: 16px;
-	height: auto;
-	padding: 10px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-.form-signin .form-control:focus,
-.form-signin .ember-text-field:focus {
-	z-index: 2;
-}
-
-.form-signin input[type="text"] {
-	margin-bottom: -1px;
-	border-bottom-left-radius: 0;
-	border-bottom-right-radius: 0;
-}
-
-.form-signin input[type="password"] {
-	margin-bottom: 10px;
-	border-top-left-radius: 0;
-	border-top-right-radius: 0;
-}
+// Notify Bar
 
 .jquery-notify-bar.warning .notify-bar-text-wrapper {
   background: transparent url("../img/error.png") no-repeat center left;
@@ -74,3 +66,88 @@ ember-text-field, ember-view {
 .jquery-notify-bar.error .notify-bar-text-wrapper {
   background: transparent url("../img/cross.png") no-repeat center left;
 }
+
+
+// Login Page
+
+.form-signin {
+	max-width: 455px;
+	padding: 15px;
+	margin: 0 auto;
+
+	.header {
+		h2 {
+			div:last-child {
+				@include set-font("proxima-nova", 800);
+				text-transform: uppercase;
+				font-size: 12pt;
+				letter-spacing: 0.5em;
+			}
+		}
+		img {
+			position: relative;
+			top: -55px;
+		}
+		text-align: center;
+		padding: 20px 150px;
+		background-color: $slate;
+		color: $offwhite !important;
+	}
+
+	.footer {
+		background-color: $offwhite;
+		color: $slate;
+		padding: 10px;
+		text-align: center;
+		h2 {
+			@include set-font("adelle", 100);
+			font-size: 20pt;
+		}
+		button {
+			width: 300px;
+			display: inline;
+		}
+	}
+
+	.form-signin-heading,
+	.checkbox {
+		margin-bottom: 10px;
+	}
+	.checkbox {
+		font-weight: normal;
+	}
+
+	.form-control,
+	.ember-text-field {
+		width: 300px;
+		position: relative;
+		font-size: 16px;
+		height: auto;
+		padding: 15px;
+		margin: 20px 0;
+		background-color: $gray-light;
+		color: $gray;
+		border: none;
+
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.form-control:focus,
+	.ember-text-field:focus {
+		z-index: 2;
+	}
+
+	input[type="text"] {
+		margin-bottom: -1px;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+		margin-bottom: 10px;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+	}
+}
+
