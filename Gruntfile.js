@@ -179,7 +179,7 @@ module.exports = function (grunt) {
             html: ['<%= yeoman.dist %>/{,*/}*.html'],
             css: ['<%= yeoman.dist %>/styles/{,*/}*.css'],
             options: {
-                dirs: ['<%= yeoman.dist %>']
+                assetDirs: ['<%= yeoman.dist %>']
             }
         },
         imagemin: {
@@ -248,7 +248,7 @@ module.exports = function (grunt) {
                     src: [
                         '*.{ico,txt}',
                         '.htaccess',
-                        'img/{,*/}*.{webp,gif}',
+                        'img/{,*/}*.{webp,gif,png,jpg,jpeg}',
                         'styles/fonts/*'
                     ]
                 }]
@@ -330,6 +330,7 @@ module.exports = function (grunt) {
         'uglify',
         'copy',
         'rev',
+        'imagemin',
         'usemin'
     ]);
 

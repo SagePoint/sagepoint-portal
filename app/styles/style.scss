@@ -10,6 +10,8 @@ body {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	background-color: $gray-light;
+	background-image: url(../img/pretties.png);
+	background-repeat: repeat;
 }
 
 ember-text-field, ember-view {
@@ -95,6 +97,25 @@ ember-text-field, ember-view {
 	}
 
 	.footer {
+		.remember-row {
+			width: 300px;
+			padding-left: 70px;
+			margin:20px 0;
+			margin-left: 3px;
+			.checkbox {
+				padding: 0;
+				display: inline;
+				margin: 0;
+				position: relative;
+				left: -10px;
+				top: -2px;
+			}
+			a {
+				position: relative;
+				right: -55px;
+				color: $sage;
+			}
+		}
 		background-color: $offwhite;
 		color: $slate;
 		padding: 10px;
