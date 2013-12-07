@@ -31,6 +31,10 @@ SagepointPortal.UsersLoginController = Ember.ObjectController.extend({
 				},
 				dataType: 'json'
 			});
+		},
+
+		reset: function() {
+			location.href = SagepointPortal.legacy_base + '/account/reset_password';
 		}
 	}
 

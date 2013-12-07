@@ -157,6 +157,7 @@ ember-text-field, ember-view {
 	.form-control:focus,
 	.ember-text-field:focus {
 		z-index: 2;
+		color: #333333;
 	}
 
 	input[type="text"] {
