@@ -3,15 +3,15 @@
 //Common Stuffs
 
 html, body {
-	margin: 30px 0;
-}
-
-body {
-	padding-top: 40px;
-	padding-bottom: 40px;
 	background-color: $gray-light;
 	background-image: url(../img/pretties.png);
 	background-repeat: repeat;
+}
+
+
+body {
+	// padding-top: 40px;
+	// padding-bottom: 40px;
 }
 
 ember-text-field, ember-view {
@@ -51,6 +51,14 @@ ember-text-field, ember-view {
 		color: $slate;
 
 	}
+	ul.nav {
+		li {
+			color: $slate;
+			a {
+				color: $slate;
+			}
+		}
+	}
 }
 
 
@@ -75,10 +83,13 @@ ember-text-field, ember-view {
 .form-signin {
 	max-width: 455px;
 	padding: 15px;
-	margin: 0 auto;
+	margin: 130px auto;
 
 	.header {
+		height: 150px;
 		h2 {
+			position: relative;
+			top: -50px;
 			div:last-child {
 				@include set-font("proxima-nova", 800);
 				text-transform: uppercase;
@@ -119,6 +130,7 @@ ember-text-field, ember-view {
 		background-color: $offwhite;
 		color: $slate;
 		padding: 10px;
+		padding-bottom: 50px;
 		text-align: center;
 		h2 {
 			@include set-font("adelle", 100);
