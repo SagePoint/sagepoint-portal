@@ -13,9 +13,18 @@
     	</div>
     	<div class="footer">
     		<h2> Shoot us an email!</h2>
-	    	{{input id="fromEmail" name="fromEmail" type="text" value=fromEmail placeholder="Your email (so we can respond)"}}
-	        {{view Ember.Select content=subjects class="selectpicker"}}
-            {{textarea id="body" name="body" class="xxlarge" rows=4 value=body placeholder="What's on your mind?"}}
+            <div class="control-group error">
+                <div class="controls">
+                    {{input id="fromEmail" name="fromEmail" type="text" value=fromEmail placeholder="Your email (so we can respond)"}}
+                </div>
+            </div>
+            <div class="control-group error">
+                <div class="controls">
+                    {{textarea id="body" name="body" class="xxlarge" rows=4 value=body placeholder="What's on your mind?"}}
+                </div>
+            </div>
+
+	        {{!-- {{view Ember.Select content=subjects value="selectedSubject" class="selectpicker"}} --}}
 	        <button {{action 'send' }} class="btn btn-lg btn-primary btn-block btn-sage" >Send</button>
     	</div>
     </form>
