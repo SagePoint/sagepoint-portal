@@ -5,7 +5,7 @@ SagepointPortal.ContactController = Ember.ObjectController.extend({
 			var email = this.get('fromEmail');
 			var body = this.get('body');
 
-			if(!email.match(/.+@.+\..{2,4}/)) {
+			if(email === null || !email.match(/.+@.+\..{2,4}/)) {
 				$.notifyBar({html: "Please enter a valid email", cssClass: "error"});
 				return;
 			}
