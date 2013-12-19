@@ -37,6 +37,7 @@ require('scripts/views/*');
 require('scripts/router');
 
 $(document).ready(function() {
+	$(".selectpicker").selectpicker();
 	setTimeout(function() {
 		$.notifyBar({
 			html: "Welcome to the new SagePoint! As we transition, you will see some functionality in this format. Change is good =)",

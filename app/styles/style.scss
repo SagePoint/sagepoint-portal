@@ -18,7 +18,7 @@ ember-text-field, ember-view {
 
 }
 
-.btn-sage {
+.btn-primary, .btn-sage {
 	background-color: $sage;
 	border: 1px solid $sage;
 	text-transform: uppercase;
@@ -170,6 +170,19 @@ ember-text-field, ember-view {
 	.ember-text-field:focus {
 		z-index: 2;
 		color: #333333;
+	}
+
+	.bootstrap-select {
+		width: inherit !important;
+		margin: 20px 0;
+	}
+
+	textarea {
+		width: 300px;
+		border: none;
+		background-color: $gray-light;
+		padding: 5px;
+		margin: 15px 0;
 	}
 
 	input[type="text"] {
