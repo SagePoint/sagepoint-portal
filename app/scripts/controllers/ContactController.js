@@ -32,9 +32,9 @@ SagepointPortal.ContactController = Ember.ObjectController.extend({
 				},
 				error: function(xhr, status, errorThrown) {
 					if(typeof xhr.responseText === 'undefined') {
-						jQuery.notifyBar({html: "An connection error occured", cssClass: 'error'});
+						$.notifyBar({html: "An connection error occured", cssClass: 'error'});
 					} else {
-						jQuery.notifyBar({html: JSON.parse(xhr.responseText).errors[0], cssClass: 'error'});
+						$.notifyBar({html: "Login failed", cssClass: 'error'});
 					}
 				},
 				dataType: 'json'

@@ -27,7 +27,7 @@ SagepointPortal.UsersLoginController = Ember.ObjectController.extend({
 
 				},
 				error: function(xhr, status, errorThrown) {
-					jQuery.notifyBar({html: JSON.parse(xhr.responseText).errors[0], cssClass: 'error'});
+					$.notifyBar({html: "Login failed", cssClass: 'error'});
 				},
 				dataType: 'json'
 			});
